@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001901259759"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", 'Hello {first}\n\n f"<b>○ Direct Mega Links😊😍 : <a href='https://t.me/+QPyHEA1xCVtlNTcx'>CLICK HERE⚡️</a>\n○ Daily Special Mega Links🥰: <a href='https://t.me/+SNSFScToH4piNTk1'>CLICK HERE⚡️</a>\n○ TeraBox 🎁 unlimited Links : <a href='https://t.me/+S7SN-3vnD1s4YjEx'>CLICK HERE⚡️</a>\n○ Special Leak Updates🔥 : <a href='https://t.me/+wxDSKyTwAMowZGFl'>CLICK HERE⚡️</a>\n○ Main Channel⚡️ : <a href='https://t.me/+kxI_UMH4ZxljODg1'>CLICK HERE⚡️</a>\n○ ❤️‍🩹Join Our All Stuff Channels in Single Click🔥 : <a href='https://t.me/addlist/RPm4cp5PE_Q5MzM1'>CLICK HERE⚡️</b>"')
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\n f"<b>○ Direct Mega Links😊😍 : <a href='https://t.me/+QPyHEA1xCVtlNTcx'>CLICK HERE⚡️</a>\n○ Daily Special Mega Links🥰: <a href='https://t.me/+SNSFScToH4piNTk1'>CLICK HERE⚡️</a>\n○ TeraBox 🎁 unlimited Links : <a href='https://t.me/+S7SN-3vnD1s4YjEx'>CLICK HERE⚡️</a>\n○ Special Leak Updates🔥 : <a href='https://t.me/+wxDSKyTwAMowZGFl'>CLICK HERE⚡️</a>\n○ Main Channel⚡️ : <a href='https://t.me/+kxI_UMH4ZxljODg1'>CLICK HERE⚡️</a>\n○ ❤️‍🩹Join Our All Stuff Channels in Single Click🔥 : <a href='https://t.me/addlist/RPm4cp5PE_Q5MzM1'>CLICK HERE⚡️</b>"")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
